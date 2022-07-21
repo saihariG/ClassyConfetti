@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-ClassyConfetti is a iOS Framework developed by Classy Inc.This Framework can be incorporated into other apps to decorate with beautiful confettti animations
+
+'ClassyConfetti is a iOS Framework developed by Classy Inc.This Framework can be incorporated into other apps to decorate with beautiful confettti animations'
                        DESC
 
   s.homepage         = 'https://github.com/saihariG/ClassyConfetti'
