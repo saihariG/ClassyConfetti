@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import ClassyConfetti
 
 class ViewController: UIViewController {
 
+    let confetti = classyConfetti()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        confetti.emit(in: view, with: .fromTop)
     }
 
     override func didReceiveMemoryWarning() {

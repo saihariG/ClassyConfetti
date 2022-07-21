@@ -1,0 +1,16 @@
+PODS:
+  - ClassyConfetti (0.1.0)
+
+DEPENDENCIES:
+  - ClassyConfetti (from `../`)
+
+EXTERNAL SOURCES:
+  ClassyConfetti:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ClassyConfetti: 760493acfde5b7f573771f6df5ba09da831ee1b8
+
+PODFILE CHECKSUM: 9b6a44375ac93ada9a3493ed9ba689899aeb3de6
+
+COCOAPODS: 1.11.3
