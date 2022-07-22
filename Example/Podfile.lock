@@ -1,5 +1,5 @@
 PODS:
-  - ClassyConfetti (0.1.0)
+  - ClassyConfetti (0.1.1)
 
 DEPENDENCIES:
   - ClassyConfetti (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ClassyConfetti: 760493acfde5b7f573771f6df5ba09da831ee1b8
+  ClassyConfetti: f1a3dd3fe38dd754e5b2ea79393b2580f684751e
 
 PODFILE CHECKSUM: 9b6a44375ac93ada9a3493ed9ba689899aeb3de6
 

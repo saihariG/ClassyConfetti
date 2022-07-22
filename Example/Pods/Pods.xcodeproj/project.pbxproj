@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B6CDA24271FC162D1C316E15C479A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6A181B65551C8F43DA13EE20AF464038 /* ClassyConfetti-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC7403108DC689F70D126F05DEF7277 /* ClassyConfetti-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559967972E1E1B8D447BCB0A2A9A4E74 /* ClassyConfetti-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D81C8DCE3E146B1E53588CD5DEBFB /* ClassyConfetti-dummy.m */; };
+		5B6CDA24271FC162D1C316E15C479A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D006AE7015E56CDC25D2498DAE8AB4 /* Foundation.framework */; };
+		65AFF11BDA9769768B5C7EDDAAE4B451 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C3BC3F41A0A484E1BE71B8AFD53FD5 /* ReplaceMe.swift */; };
 		8C791CBC646C81131381F783AEE7A338 /* Pods-ClassyConfetti_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B89F7E41DBE2C9CA30164DFCC1BF9C64 /* Pods-ClassyConfetti_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91E9B0972889822000774A19 /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9B0962889822000774A19 /* Confetti.swift */; };
-		CCC0095049A522C6A48076A5C2EC3C79 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F33D27130264A2E5C9E2D10F7F242 /* ReplaceMe.swift */; };
-		DC26E6C43E4E5EA8B559283BED2CC7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DFC39510BE1FEC165AECD0FAB9F51298 /* ClassyConfetti-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E260D5F4C1556052CDDA8366E67012DA /* ClassyConfetti-dummy.m */; };
+		99FA3C2D0B924D573B6894DDDA7FD947 /* ClassyConfetti-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E06EF82B96AA20DC9D8F12984DD7BD /* ClassyConfetti-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FDE9E5CD666E9050204FDB989B676F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB6BE5CD12CEA003FD1F10FA9F859B8 /* QuartzCore.framework */; };
+		A66C8BFD7EDC92C5B3E6D589A0A836D5 /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA320BFCAF2E6ECBBD7DC4B6A20BCB0 /* Confetti.swift */; };
+		D125D678AF3DAC4B57A47E4AA101D90C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763DCA2A802CCB2D29337E10FA32970E /* UIKit.framework */; };
+		D7AC2DC4D9746459088A4B22FC29B6EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D006AE7015E56CDC25D2498DAE8AB4 /* Foundation.framework */; };
+		DC26E6C43E4E5EA8B559283BED2CC7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D006AE7015E56CDC25D2498DAE8AB4 /* Foundation.framework */; };
 		F67BB2DC9CED695FCCA60411272F5B52 /* Pods-ClassyConfetti_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E015E97B1F2B399791BEA5E9A7B6B9E5 /* Pods-ClassyConfetti_Example-dummy.m */; };
 		F71854A851B3C5845C477339BC1D4C07 /* Pods-ClassyConfetti_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7430BA9611348EB4A9615EA07124EB32 /* Pods-ClassyConfetti_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7CC1F57106B539A0F6E8CC4C6FF133D /* Pods-ClassyConfetti_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B556E223FA3B75434278BDA8E3647DD1 /* Pods-ClassyConfetti_Tests-dummy.m */; };
-		FDD20870FD65C4FF85ECF47EA8E8A989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F899EBA3FC21106955D65925715EDE53 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE28DECF276C8C48FC962765E7D991A /* GameKit.framework */; };
+		FEA913D81DBAADA21B5B25F5347FB38D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AB640417A605E027519313A151FBE6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		034F20E1A8526853B5FCC3862E55692F /* PBXContainerItemProxy */ = {
+		33030A111411E58CABCBAD74C08890B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C50CD31D4C94890406ED9EF642C3536E;
 			remoteInfo = ClassyConfetti;
 		};
-		FB79FD1E527A73403774C33614DFFC13 /* PBXContainerItemProxy */ = {
+		3FDE3851CEB439988E7578D63B28A749 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,40 +42,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		407A5C227A5512E3E79B6EAE79D9193A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		42E71D71A4455C9645FE3166F959494C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05DA101DAEE47DAAED6D563AF4BA933A /* ClassyConfetti.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ClassyConfetti.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		1AB6BE5CD12CEA003FD1F10FA9F859B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		21E06EF82B96AA20DC9D8F12984DD7BD /* ClassyConfetti-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClassyConfetti-umbrella.h"; sourceTree = "<group>"; };
+		2DE28DECF276C8C48FC962765E7D991A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		3BA320BFCAF2E6ECBBD7DC4B6A20BCB0 /* Confetti.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Confetti.swift; path = ClassyConfetti/Classes/Confetti.swift; sourceTree = "<group>"; };
+		43D006AE7015E56CDC25D2498DAE8AB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		44FDE18E258B776143933BAA290DAEBB /* Pods-ClassyConfetti_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClassyConfetti_Example.modulemap"; sourceTree = "<group>"; };
-		4BAD117A1E60D17A5A6F82B96C19296E /* Pods_ClassyConfetti_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassyConfetti_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C3BC3F41A0A484E1BE71B8AFD53FD5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ClassyConfetti/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4BAD117A1E60D17A5A6F82B96C19296E /* Pods-ClassyConfetti_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ClassyConfetti_Example"; path = Pods_ClassyConfetti_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1E19265AE5D904F1D9A0DC218FD99C /* Pods-ClassyConfetti_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClassyConfetti_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		621C6720C3045BC82474A06B871781EB /* ClassyConfetti */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClassyConfetti; path = ClassyConfetti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F3F16A2F90A9AF2AB9143E3891C979 /* Pods-ClassyConfetti_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClassyConfetti_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		63AD1D260AC0E108A2E3EA2F2A5DE3EF /* Pods-ClassyConfetti_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClassyConfetti_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		63DF9C9B8DC0A6BB26A91FBAD8C8FC3C /* Pods-ClassyConfetti_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClassyConfetti_Example.release.xcconfig"; sourceTree = "<group>"; };
+		64AB640417A605E027519313A151FBE6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		69266AC44872898DCCC8206E25AF6301 /* Pods-ClassyConfetti_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClassyConfetti_Tests.modulemap"; sourceTree = "<group>"; };
-		6BC7403108DC689F70D126F05DEF7277 /* ClassyConfetti-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClassyConfetti-umbrella.h"; sourceTree = "<group>"; };
-		6C338DC93E2DC48BC7C6AFD3D8521AFD /* ClassyConfetti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClassyConfetti.debug.xcconfig; sourceTree = "<group>"; };
 		6C5EC015E3136760B478E5B317802F2D /* Pods-ClassyConfetti_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClassyConfetti_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7430BA9611348EB4A9615EA07124EB32 /* Pods-ClassyConfetti_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClassyConfetti_Example-umbrella.h"; sourceTree = "<group>"; };
-		7ADD9CB87ECCA58E1E3EC007C2BDA4E3 /* ClassyConfetti-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClassyConfetti-prefix.pch"; sourceTree = "<group>"; };
+		763DCA2A802CCB2D29337E10FA32970E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		77784FD0CE14E1C3A1E417CE1D102E90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7B0421D41E3DBCC832E0AEDD69F7C32F /* Pods-ClassyConfetti_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClassyConfetti_Tests-Info.plist"; sourceTree = "<group>"; };
 		86014D24A034E43B396259B40B0EE6CD /* Pods-ClassyConfetti_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClassyConfetti_Example-Info.plist"; sourceTree = "<group>"; };
-		8B46B2ED3CF6037F3858A1F9100C517C /* ClassyConfetti.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClassyConfetti.modulemap; sourceTree = "<group>"; };
-		91E9B0962889822000774A19 /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Confetti.swift; path = ClassyConfetti/Classes/Confetti.swift; sourceTree = "<group>"; };
-		92C6C648711743DD8E5854244D1642BC /* ClassyConfetti-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClassyConfetti-Info.plist"; sourceTree = "<group>"; };
+		874845B111F90DD5BC626DA2C8EBB01F /* ClassyConfetti.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClassyConfetti.modulemap; sourceTree = "<group>"; };
+		960BE88773D55D5416B116132A88E14B /* ClassyConfetti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClassyConfetti.debug.xcconfig; sourceTree = "<group>"; };
+		9A62A1DF738AAD1C02B98F2C41006DB3 /* ClassyConfetti-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClassyConfetti-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5B38909F8E6C642CA4DA095E9326A25 /* ClassyConfetti.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ClassyConfetti.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9E1D81C8DCE3E146B1E53588CD5DEBFB /* ClassyConfetti-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClassyConfetti-dummy.m"; sourceTree = "<group>"; };
 		B556E223FA3B75434278BDA8E3647DD1 /* Pods-ClassyConfetti_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClassyConfetti_Tests-dummy.m"; sourceTree = "<group>"; };
 		B89F7E41DBE2C9CA30164DFCC1BF9C64 /* Pods-ClassyConfetti_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClassyConfetti_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BF5F33D27130264A2E5C9E2D10F7F242 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ClassyConfetti/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C3E57B3B2800D90E30BCE81DFA762DE5 /* ClassyConfetti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClassyConfetti.release.xcconfig; sourceTree = "<group>"; };
 		C6BA5E6CC3C071ED41E2DFE0AED2B31F /* Pods-ClassyConfetti_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClassyConfetti_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CCA389609F3896DA21BD7EA1C6CFE564 /* ClassyConfetti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClassyConfetti.release.xcconfig; sourceTree = "<group>"; };
-		D1ED29DF4C23452FFA283524944A5D34 /* Pods_ClassyConfetti_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassyConfetti_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1ED29DF4C23452FFA283524944A5D34 /* Pods-ClassyConfetti_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ClassyConfetti_Tests"; path = Pods_ClassyConfetti_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5877F1B2D29A729CF78041E3DFD615E /* Pods-ClassyConfetti_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClassyConfetti_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D799FB17D680314B16D6761FDC9559DC /* Pods-ClassyConfetti_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClassyConfetti_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DF72F12AA771B08DCEBBE3E3FD237A7F /* Pods-ClassyConfetti_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClassyConfetti_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E015E97B1F2B399791BEA5E9A7B6B9E5 /* Pods-ClassyConfetti_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClassyConfetti_Example-dummy.m"; sourceTree = "<group>"; };
-		E260D5F4C1556052CDDA8366E67012DA /* ClassyConfetti-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClassyConfetti-dummy.m"; sourceTree = "<group>"; };
+		E96A9D43D1B9994D18155D55BB97D146 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EE9BE83E248EC2AD0FA00EC9356CBD9A /* ClassyConfetti-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClassyConfetti-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78729C0A73A0A1935BC6E208A82403A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC2DC4D9746459088A4B22FC29B6EB /* Foundation.framework in Frameworks */,
+				F899EBA3FC21106955D65925715EDE53 /* GameKit.framework in Frameworks */,
+				FEA913D81DBAADA21B5B25F5347FB38D /* MapKit.framework in Frameworks */,
+				A3FDE9E5CD666E9050204FDB989B676F /* QuartzCore.framework in Frameworks */,
+				D125D678AF3DAC4B57A47E4AA101D90C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFC30AE8189866F797C14152DF0EB0B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,56 +111,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC225AA3816DAA358AB94DA6A93692EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDD20870FD65C4FF85ECF47EA8E8A989 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20036A3269C30FC87116D726852F311F /* Support Files */ = {
+		004D751D4D01607303D0E8A8D24A72BC /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8B46B2ED3CF6037F3858A1F9100C517C /* ClassyConfetti.modulemap */,
-				E260D5F4C1556052CDDA8366E67012DA /* ClassyConfetti-dummy.m */,
-				92C6C648711743DD8E5854244D1642BC /* ClassyConfetti-Info.plist */,
-				7ADD9CB87ECCA58E1E3EC007C2BDA4E3 /* ClassyConfetti-prefix.pch */,
-				6BC7403108DC689F70D126F05DEF7277 /* ClassyConfetti-umbrella.h */,
-				6C338DC93E2DC48BC7C6AFD3D8521AFD /* ClassyConfetti.debug.xcconfig */,
-				CCA389609F3896DA21BD7EA1C6CFE564 /* ClassyConfetti.release.xcconfig */,
+				43D006AE7015E56CDC25D2498DAE8AB4 /* Foundation.framework */,
+				2DE28DECF276C8C48FC962765E7D991A /* GameKit.framework */,
+				64AB640417A605E027519313A151FBE6 /* MapKit.framework */,
+				1AB6BE5CD12CEA003FD1F10FA9F859B8 /* QuartzCore.framework */,
+				763DCA2A802CCB2D29337E10FA32970E /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ClassyConfetti";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		200699DBFCD0E2E582B1C95EB2F9A341 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				621C6720C3045BC82474A06B871781EB /* ClassyConfetti */,
-				4BAD117A1E60D17A5A6F82B96C19296E /* Pods_ClassyConfetti_Example.framework */,
-				D1ED29DF4C23452FFA283524944A5D34 /* Pods_ClassyConfetti_Tests.framework */,
+				4BAD117A1E60D17A5A6F82B96C19296E /* Pods-ClassyConfetti_Example */,
+				D1ED29DF4C23452FFA283524944A5D34 /* Pods-ClassyConfetti_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B863522E0AFEA669C8839FD0B4E39B8 /* Development Pods */ = {
+		477986E0C5AA9138A98D5592E1AE9ABF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E94C8271F6F3C7A60ECCBDA83DDED783 /* ClassyConfetti */,
+				05DA101DAEE47DAAED6D563AF4BA933A /* ClassyConfetti.podspec */,
+				E96A9D43D1B9994D18155D55BB97D146 /* LICENSE */,
+				77784FD0CE14E1C3A1E417CE1D102E90 /* README.md */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6A1B9F975035BC26781D4DFD34E6D645 /* Targets Support Files */ = {
@@ -185,63 +188,76 @@
 			path = "Target Support Files/Pods-ClassyConfetti_Tests";
 			sourceTree = "<group>";
 		};
+		B79D7C8A0ADDB027D33FE2ADD8225679 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				874845B111F90DD5BC626DA2C8EBB01F /* ClassyConfetti.modulemap */,
+				9E1D81C8DCE3E146B1E53588CD5DEBFB /* ClassyConfetti-dummy.m */,
+				EE9BE83E248EC2AD0FA00EC9356CBD9A /* ClassyConfetti-Info.plist */,
+				9A62A1DF738AAD1C02B98F2C41006DB3 /* ClassyConfetti-prefix.pch */,
+				21E06EF82B96AA20DC9D8F12984DD7BD /* ClassyConfetti-umbrella.h */,
+				960BE88773D55D5416B116132A88E14B /* ClassyConfetti.debug.xcconfig */,
+				C3E57B3B2800D90E30BCE81DFA762DE5 /* ClassyConfetti.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ClassyConfetti";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004D751D4D01607303D0E8A8D24A72BC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2B863522E0AFEA669C8839FD0B4E39B8 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EBD645AB1EEB0866C615FBFEE7758840 /* Development Pods */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				200699DBFCD0E2E582B1C95EB2F9A341 /* Products */,
 				6A1B9F975035BC26781D4DFD34E6D645 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D5FD7DC2C11BEFA1ACA9A41A888F12DA /* ClassyConfetti */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E94C8271F6F3C7A60ECCBDA83DDED783 /* ClassyConfetti */ = {
-			isa = PBXGroup;
-			children = (
-				BF5F33D27130264A2E5C9E2D10F7F242 /* ReplaceMe.swift */,
-				91E9B0962889822000774A19 /* Confetti.swift */,
-				EC7A8AD5814564B4032CF06FBCA4F688 /* Pod */,
-				20036A3269C30FC87116D726852F311F /* Support Files */,
+				3BA320BFCAF2E6ECBBD7DC4B6A20BCB0 /* Confetti.swift */,
+				49C3BC3F41A0A484E1BE71B8AFD53FD5 /* ReplaceMe.swift */,
+				477986E0C5AA9138A98D5592E1AE9ABF /* Pod */,
+				B79D7C8A0ADDB027D33FE2ADD8225679 /* Support Files */,
 			);
 			name = ClassyConfetti;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		EC7A8AD5814564B4032CF06FBCA4F688 /* Pod */ = {
+		EBD645AB1EEB0866C615FBFEE7758840 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A5B38909F8E6C642CA4DA095E9326A25 /* ClassyConfetti.podspec */,
-				42E71D71A4455C9645FE3166F959494C /* LICENSE */,
-				407A5C227A5512E3E79B6EAE79D9193A /* README.md */,
+				D5FD7DC2C11BEFA1ACA9A41A888F12DA /* ClassyConfetti */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		085609ECAC96DA2905BBD97E109CFF64 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A181B65551C8F43DA13EE20AF464038 /* ClassyConfetti-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0930E2556830CC6832212A90A38E7AF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F71854A851B3C5845C477339BC1D4C07 /* Pods-ClassyConfetti_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9401B45D0C3B819C5C170D7030E5C664 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FA3C2D0B924D573B6894DDDA7FD947 /* ClassyConfetti-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,11 +284,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				5596F48C7BB7C0594F4FEEBF760D29A2 /* PBXTargetDependency */,
+				BB5C15CE6D0AF71607EF078C69509DEF /* PBXTargetDependency */,
 			);
 			name = "Pods-ClassyConfetti_Tests";
 			productName = Pods_ClassyConfetti_Tests;
-			productReference = D1ED29DF4C23452FFA283524944A5D34 /* Pods_ClassyConfetti_Tests.framework */;
+			productReference = D1ED29DF4C23452FFA283524944A5D34 /* Pods-ClassyConfetti_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		57199A1AA822802B6EE1D586EF2220D0 /* Pods-ClassyConfetti_Example */ = {
@@ -287,21 +303,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				1790D4A339A3BDB1AA16CA22B331B454 /* PBXTargetDependency */,
+				02904BE8D8EF98B27F98CCF4550AE69E /* PBXTargetDependency */,
 			);
 			name = "Pods-ClassyConfetti_Example";
 			productName = Pods_ClassyConfetti_Example;
-			productReference = 4BAD117A1E60D17A5A6F82B96C19296E /* Pods_ClassyConfetti_Example.framework */;
+			productReference = 4BAD117A1E60D17A5A6F82B96C19296E /* Pods-ClassyConfetti_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		C50CD31D4C94890406ED9EF642C3536E /* ClassyConfetti */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEC00587113C6E25D4077A2C8A89DEBA /* Build configuration list for PBXNativeTarget "ClassyConfetti" */;
+			buildConfigurationList = 6B433F4C77E9337B3549CA73D606C377 /* Build configuration list for PBXNativeTarget "ClassyConfetti" */;
 			buildPhases = (
-				085609ECAC96DA2905BBD97E109CFF64 /* Headers */,
-				62933AD59B0CE8786D3E815A60F4E456 /* Sources */,
-				FC225AA3816DAA358AB94DA6A93692EE /* Frameworks */,
-				513D7BA595064F1BB4D455F951075E94 /* Resources */,
+				9401B45D0C3B819C5C170D7030E5C664 /* Headers */,
+				0160AF1864F702CA118DCDE2AF98D534 /* Sources */,
+				78729C0A73A0A1935BC6E208A82403A8 /* Frameworks */,
+				AB9568BCAA9EED828433E2DDAB9404FB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -319,7 +335,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -349,14 +365,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		513D7BA595064F1BB4D455F951075E94 /* Resources */ = {
+		90872A9BE494CFBDFBE1572F211C9B7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90872A9BE494CFBDFBE1572F211C9B7D /* Resources */ = {
+		AB9568BCAA9EED828433E2DDAB9404FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,6 +382,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0160AF1864F702CA118DCDE2AF98D534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559967972E1E1B8D447BCB0A2A9A4E74 /* ClassyConfetti-dummy.m in Sources */,
+				A66C8BFD7EDC92C5B3E6D589A0A836D5 /* Confetti.swift in Sources */,
+				65AFF11BDA9769768B5C7EDDAAE4B451 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		327F2C1BC89F89D478A9586C857DF6B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,30 +408,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62933AD59B0CE8786D3E815A60F4E456 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFC39510BE1FEC165AECD0FAB9F51298 /* ClassyConfetti-dummy.m in Sources */,
-				91E9B0972889822000774A19 /* Confetti.swift in Sources */,
-				CCC0095049A522C6A48076A5C2EC3C79 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1790D4A339A3BDB1AA16CA22B331B454 /* PBXTargetDependency */ = {
+		02904BE8D8EF98B27F98CCF4550AE69E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ClassyConfetti;
 			target = C50CD31D4C94890406ED9EF642C3536E /* ClassyConfetti */;
-			targetProxy = 034F20E1A8526853B5FCC3862E55692F /* PBXContainerItemProxy */;
+			targetProxy = 33030A111411E58CABCBAD74C08890B4 /* PBXContainerItemProxy */;
 		};
-		5596F48C7BB7C0594F4FEEBF760D29A2 /* PBXTargetDependency */ = {
+		BB5C15CE6D0AF71607EF078C69509DEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ClassyConfetti_Example";
 			target = 57199A1AA822802B6EE1D586EF2220D0 /* Pods-ClassyConfetti_Example */;
-			targetProxy = FB79FD1E527A73403774C33614DFFC13 /* PBXContainerItemProxy */;
+			targetProxy = 3FDE3851CEB439988E7578D63B28A749 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -426,7 +442,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ClassyConfetti_Tests/Pods-ClassyConfetti_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ClassyConfetti_Tests/Pods-ClassyConfetti_Tests.modulemap";
@@ -444,9 +460,9 @@
 			};
 			name = Release;
 		};
-		2EC770239C0A7ECFCFDA72B14EC851EF /* Debug */ = {
+		0BB1F1340D8C67B345B6820743B40610 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C338DC93E2DC48BC7C6AFD3D8521AFD /* ClassyConfetti.debug.xcconfig */;
+			baseConfigurationReference = C3E57B3B2800D90E30BCE81DFA762DE5 /* ClassyConfetti.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -468,12 +484,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5DFA04B4926ED2F789701D2430539E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -491,7 +508,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ClassyConfetti_Tests/Pods-ClassyConfetti_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ClassyConfetti_Tests/Pods-ClassyConfetti_Tests.modulemap";
@@ -502,6 +519,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6655F26B0272A779D00A5117FE6B2F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960BE88773D55D5416B116132A88E14B /* ClassyConfetti.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClassyConfetti/ClassyConfetti-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClassyConfetti/ClassyConfetti-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClassyConfetti/ClassyConfetti.modulemap";
+				PRODUCT_MODULE_NAME = ClassyConfetti;
+				PRODUCT_NAME = ClassyConfetti;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -569,38 +617,6 @@
 			};
 			name = Release;
 		};
-		B42EBA9439B88ECD1AAA585F47145849 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCA389609F3896DA21BD7EA1C6CFE564 /* ClassyConfetti.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ClassyConfetti/ClassyConfetti-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ClassyConfetti/ClassyConfetti-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ClassyConfetti/ClassyConfetti.modulemap";
-				PRODUCT_MODULE_NAME = ClassyConfetti;
-				PRODUCT_NAME = ClassyConfetti;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BFF302A9953AE4AB9CE5D9B52514ECDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63DF9C9B8DC0A6BB26A91FBAD8C8FC3C /* Pods-ClassyConfetti_Example.release.xcconfig */;
@@ -617,7 +633,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ClassyConfetti_Example/Pods-ClassyConfetti_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ClassyConfetti_Example/Pods-ClassyConfetti_Example.modulemap";
@@ -651,7 +667,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ClassyConfetti_Example/Pods-ClassyConfetti_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ClassyConfetti_Example/Pods-ClassyConfetti_Example.modulemap";
@@ -755,20 +771,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6B433F4C77E9337B3549CA73D606C377 /* Build configuration list for PBXNativeTarget "ClassyConfetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6655F26B0272A779D00A5117FE6B2F7A /* Debug */,
+				0BB1F1340D8C67B345B6820743B40610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8B335DC87E5AA56D65CBE36C91E64EB9 /* Build configuration list for PBXNativeTarget "Pods-ClassyConfetti_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DFA04B4926ED2F789701D2430539E81 /* Debug */,
 				09F137C95B69C3D132373047C5AE6B3F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BEC00587113C6E25D4077A2C8A89DEBA /* Build configuration list for PBXNativeTarget "ClassyConfetti" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2EC770239C0A7ECFCFDA72B14EC851EF /* Debug */,
-				B42EBA9439B88ECD1AAA585F47145849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

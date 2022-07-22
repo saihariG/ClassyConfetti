@@ -7,6 +7,12 @@
 
 # ScreenShots / Gif
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/52252342/180391729-f2fb28e4-1648-4c4d-a37d-9681305daf38.gif" width="150" />
+  <img src="https://user-images.githubusercontent.com/52252342/180391760-ff2d2861-f06c-4c70-8813-f85a887a7ad7.gif" width="150" /> 
+  <img src="https://user-images.githubusercontent.com/52252342/180391773-98ddeebb-9b0b-447d-8a43-2da7a5d204b2.gif" width="150" />
+  <img src="https://user-images.githubusercontent.com/52252342/180391781-afa562e6-ff4f-49bd-a208-5fe9bfc42d4d.gif" width="150" />
+</p>
 
 ## Example
 
