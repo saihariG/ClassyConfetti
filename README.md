@@ -42,7 +42,7 @@ import the module in your viewcontroller
 - ```import ClassyConfetti```
 
 create an instance of the class
-- ```let confetti = classyConfetti```
+- ```let confetti = classyConfetti()```
 
 make the confetti animation by calling the ```emit(in view : UIView,with position : Position,for duration : CFTimeInterval = 1)``` function
 - ```confetti.emit(in: view, with: .fromTop)``` 
