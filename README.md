@@ -5,6 +5,10 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![Platform](https://img.shields.io/cocoapods/p/ClassyConfetti.svg?style=flat)](https://cocoapods.org/pods/ClassyConfetti)
 
+<p align="center">
+<a href="/README.md" target="_blank"> English </a> | <a href="/README_TA.md" target="_blank"> தமிழ் </a>
+</p>
+
 # ScreenShots / Gif
 
 <p float="left">
