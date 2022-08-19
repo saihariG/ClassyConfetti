@@ -67,6 +67,12 @@ with: Position
 - fromBottomRight 
 - fromCenter 
 
+## Contribute
+
+ClassyConfetti is always open to enhancements, new features and bug fixes.Fork this repository, make your changes  & create a pull request.PR's will be reviewed and merged to master branch 
+
+ClassyConfetti appreciates your Contribution 🎊  
+
 ## Author
 
 saihariG, krishnansaihari@gmail.com
