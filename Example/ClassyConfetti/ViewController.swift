@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        confetti.emit(in: view, with: .fromTop)
+        confetti.emit(in: view, with: .fromTopLeft)
+        confetti.emit(in: view, with: .fromTopRight)
     }
 
     override func didReceiveMemoryWarning() {

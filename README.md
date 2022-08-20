@@ -5,6 +5,8 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![Platform](https://img.shields.io/cocoapods/p/ClassyConfetti.svg?style=flat)](https://cocoapods.org/pods/ClassyConfetti)
 
+ClassyConfetti is an iOS framework to add customised beautiful confetti animations to iOS applications 
+
 <p align="center">
 <a href="/README.md" target="_blank"> English </a> | <a href="/README_TA.md" target="_blank"> தமிழ் </a>
 </p>
@@ -72,6 +74,10 @@ with: Position
 ClassyConfetti is always open to enhancements, new features and bug fixes.Fork this repository, make your changes  & create a pull request.PR's will be reviewed and merged to master branch 
 
 ClassyConfetti appreciates your Contribution 🎊  
+
+## Sponsor 
+
+Your support help us to maintain and encourage us to build more products  
 
 ## Author
 
